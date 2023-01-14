@@ -1,4 +1,4 @@
-# Node.Js Steam Trade Farm
+# Node.Js Steam Trade Farm for Replit
 
 ## Increase amount of "Trades Made"
 
@@ -15,18 +15,7 @@
 
 ## Installation Guide
 
-The steam trade farms requires [Node.js](https://nodejs.org/) v14+ to run.
-
-- Download the code onto your computer.
-- Extract into a folder on your desktop.
-- Fill out the config.js file with all needed information (Google how to get identity secret/shared secret)
-- Run below commands in your terminal.
-```sh
-- npm install
-- node bot
-```
-
-# Want to donate to the developer?
-Donations are not required, but feel free to buy me a coffee!
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/robbieskonieczny)
+- Register repl.it account
+- Run on replit https://replit.com/new/github/Gunthersuper/node-steam-trade-farm-replit
+  - You will be redirected to Replit, you might have to create an account (you can Register with Google).
+  - Replit is a website, and does not run off your computer!
