@@ -1,7 +1,7 @@
 const SteamUser = require('steam-user');
 const SteamCommunity = require('steamcommunity');
 const SteamTotp = require('steam-totp');
-
+const keep_alive = require('./keep_alive.js')
 const SteamBotAccountManager = require('./managers/SteamBotAccountManager.js');
 const SteamAccountCredentials = require('./utils/SteamAccountCredentials.js');
 const SteamTradeOffer = require('./response_models/SteamTradeOffer.js');
