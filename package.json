@@ -2,7 +2,7 @@
   "name": "node-steam-trade-farm",
   "version": "1.0.0",
   "description": "Steam bot written in NodeJS/JS that will send trades between 2 bots in order to increase \"Amount of trades done\"",
-  "main": "bot.js",
+  "main": "index.js",
   "dependencies": {
     "steam-totp": "^2.1.1",
     "steam-tradeoffer-manager": "^2.10.2",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node bot"
+    "test": "node index"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Koncealed/node-steam-trade-farm.git"
+    "url": "git+https://github.com/Gunthersuper/node-steam-trade-farm-replit.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Koncealed/node-steam-trade-farm/issues"
+    "url": "https://github.com/Gunthersuper/node-steam-trade-farm-replit/issues"
   },
-  "homepage": "https://github.com/Koncealed/node-steam-trade-farm#readme"
+  "homepage": "https://github.com/Gunthersuper/node-steam-trade-farm-replit#readme"
 }
