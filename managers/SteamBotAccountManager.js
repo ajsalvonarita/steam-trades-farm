@@ -1,6 +1,6 @@
 const SteamInventoryItem = require('../response_models/SteamInventoryItem.js');
 
-const GAME_CODE = require('../config.js').gameCode;
+const GAME_CODE = process.env['gameCode'];
 
 class SteamBotAccountManager {
     constructor(client, community, tradeOfferManager ,credentials) {
