@@ -6,30 +6,29 @@ const SteamBotAccountManager = require('./managers/SteamBotAccountManager.js');
 const SteamAccountCredentials = require('./utils/SteamAccountCredentials.js');
 const SteamTradeOffer = require('./response_models/SteamTradeOffer.js');
 const TradeOfferManager = require('steam-tradeoffer-manager');
-var config = require('./config.js');
 
 const mainClient = new SteamUser();
 const botClient = new SteamUser();
 
-const account1Credentials = new SteamAccountCredentials(config.account1.identity_secret, 
-   config.account1.shared_secret, 
-   config.account1.username, 
-   config.account1.password,
-   config.account1.tradelink
+const account1Credentials = new SteamAccountCredentials(process.env['identity_secret1'], 
+   process.env['shared_secret1'], 
+   process.env['username1'], 
+   process.env['password1'],
+   process.env['tradelink1']
  );
 
-const account2Credentials = new SteamAccountCredentials(config.account2.identity_secret, 
-   config.account2.shared_secret, 
-   config.account2.username, 
-   config.account2.password,
-   config.account2.tradelink
+const account2Credentials = new SteamAccountCredentials(process.env['identity_secret2'], 
+   process.env['shared_secret2'], 
+   process.env['username2'], 
+   process.env['password2'],
+   process.env['tradelink2']
  );
 
 
 var mainCommunity = new SteamCommunity();
 var botCommunity = new SteamCommunity();
 
-const MAX_RETRIES = 3;
+const MAX_RETRIES = 5;
 
 var mainManager = new TradeOfferManager({
    "steam": mainClient, // Polling every 30 seconds is fine since we get notifications from Steam
