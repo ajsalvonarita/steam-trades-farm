@@ -2,6 +2,8 @@
 
 ## Increase amount of "Trades Made"
 
+It's fork of https://github.com/RobertSkonieczny/node-steam-trade-farm
+
 ## Starting amount.
 ![Trades Made Example](https://gyazo.com/c90de4cbb61d720b458170475399728e.png)
 
